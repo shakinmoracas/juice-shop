@@ -1,0 +1,24 @@
+api:   
+   url: https://ce.contrastsecurity.com/Contrast
+   user_name: agent_73a97723-2371-47c5-88ce-fd1dce0f0e3c@BenjaminmoracagmailcomOrg  
+   api_key: 53uL1ae5nM34Tpb5mnFD9Gq5YavgUUMH 
+   service_key: REMEFUY3J7BTRSOK
+agent:
+   service:
+     enable: true
+     logger:
+        path: /proc/1/fd/1
+        level: info
+     host: 20.14.58.162
+     port: 3000
+   logger:
+    path: /proc/1/fd/1
+    level: info
+   node:
+    rewrite_cache: 
+      enable: true 
+      path: ./rewrite_cache
+assess: 
+  enable: true
+protect:
+  enable: false
